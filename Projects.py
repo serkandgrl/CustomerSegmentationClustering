@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 pd.set_option("display.max_columns", None) #* -->Kolon gösterim sınırını kaldırdık
 pd.set_option("display.width", 500) #* --> #* -->Genişlik ayarladık
 
-df = pd.read_csv("D:\DataAnalysis\CustomerSegmentationClustering\Mall_Customers.csv") #* --> veri setini okuduk
+df = pd.read_csv("Mall_Customers.csv") #* --> veri setini okuduk
 
 def check_df(dataframe, head = 5):
     print("################### Shape ##################")
